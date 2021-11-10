@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BATHIX</title>
+    <!-- CSS -->
+    <!-- Bootstrap 5 CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Custom css -->
+    <link href="/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- CONTENT -->
+    <div class="container">
+      <!-- header/ navbar -->
+      <div class="header">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bahtix</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mx-auto mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Menu 1</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Menu 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Menu 3</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">olshop 1</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">olshop 2</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">olshop 3</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- product -->
+      <div class="content">
+        <div
+          id="productCarousel"
+          class="carousel slide carousel-fade mySwiper"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner main-wrapper swiper-wrapper">
+            <div class="carousel-item active main">
+              <div class="left-side">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0689/1443/t/34/assets/Beach_1920.jpg?v=1029210661698833530"
+                  class="image-mask d-block"
+                  alt="..."
+                />
+                <img src="DSC01067.png" class="image-product" alt=".." />
+              </div>
+              <div class="carousel-caption text-product text-right">
+                <div class="text-title-carousel">
+                  <div class="main-wrapper">
+                    <h3 class="main-header">ITEM KIND</h3>
+                    <h1 class="main-title">ITEM</h1>
+                    <h2 class="main-subtitle">ITEM PRIZE</h2>
+                  </div>
+                  <div class="main-content">
+                    <div class="main-content__title">
+                      Lorem ipsum dolo adipisicing elit.
+                    </div>
+                    <div class="main-content__subtitle">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Explicabo praesentium corporis asperiores tempora
+                    </div>
+                    <div class="more-menu">
+                      Shop now
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.7"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <line x1="-5" y1="12" x2="19" y2="12" />
+                        <line x1="15" y1="16" x2="19" y2="12" />
+                        <line x1="15" y1="8" x2="19" y2="12" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1613109526778-27605f1f27d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.discover-the-world.com/app/uploads/2018/05/chile-patagonia-calving-glacier-is-1150x863-c-default.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div> -->
+          </div>
+          <div class="button-wrapper">
+            <div class="swiper-button swiper-prev-button">
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#productCarousel"
+                data-bs-slide="prev"
+              >
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div class="swiper-button swiper-next-button">
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#productCarousel"
+                data-bs-slide="next"
+              >
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript -->
+    <!-- Bootstrap 5 CDN-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom js -->
+    <script src="/script.js"></script>
+  </body>
+</html>
